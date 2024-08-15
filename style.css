@@ -1,0 +1,110 @@
+
+
+body{
+  margin: 0;
+}
+.chevron{
+  width: 20px;
+}
+
+
+#logo{
+  width: 125px;
+}
+
+
+video{
+  z-index: -1;
+  position:absolute;
+  object-fit: cover;
+  height: 100vh;
+
+}
+.learnmore{
+  height: 100vh;
+}
+.image{
+  position: relative;
+
+}
+
+
+.amar{
+  height: 80vh;
+  background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blta4291ddd014f20a9/65719bc88ec2bc000df4f501/xc40-bev-hero-21x9.jpg?branch=prod_alias&auto=webp&h=1756&iar=0&w=4096);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.amar button{
+
+  width: 20%;
+}
+@media  (max-width: 768px) {
+  
+  .amar{
+
+      background-size: cover;
+      background-position: center;
+  }
+  .amar button{
+      width: 60%;
+  }
+}
+
+footer{
+  background-color: #fafafa;
+}
+/* header a{
+  text-decoration: none;
+  color: #000000;
+} */
+.navbar a{
+  text-decoration: none;
+  color: #000000;
+}
+footer a{
+  text-decoration: none;
+  color: #000000;
+}
+footer div{
+  line-height: 40px;
+}
+footer li{
+  list-style: none;
+  font-weight: bold;
+}
+.cookies li{
+  font-weight: normal;
+  font-size: 13px;
+}
+.price{
+  font-size: 12px;
+}
+footer li:hover{
+  text-decoration: underline;
+}
+.navbar li:hover{
+  background-color:rgba(150, 150, 150, 0.1);
+  opacity: 50%;
+ 
+}
+.menu-bar li{
+  font-size: 25px;
+  font-weight: 500;
+  
+}
+
+
+  
+#car{
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+
+}
